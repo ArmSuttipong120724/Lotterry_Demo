@@ -1,4 +1,4 @@
-import { Locator, Page, expect } from '@playwright/test';
+import { Locator, Page } from '@playwright/test';
 import { BasePage } from './base-page';
 
 export class HomePage extends BasePage {
@@ -10,6 +10,8 @@ export class HomePage extends BasePage {
     readonly inputNumberFiveLocator: Locator = this.page.locator('id=input-5');
 
     readonly searchButtonLocator: Locator = this.page.locator('data-testid=lottery-search-button');
+
+    readonly nokCashButtonLocator: Locator = this.page.locator('data-testid=nok-more-nok-cash-icon');
     
 
     constructor(page: Page) {
@@ -24,13 +26,19 @@ export class HomePage extends BasePage {
       await this.inputNumberFourLocator.fill(`${num[4]}`) 
       await this.inputNumberFiveLocator.fill(`${num[5]}`) 
   
-    return this;
+      return this;
     }
 
     async submitSerachLottery() {
       await this.searchButtonLocator.click()
 
-    return this;
+      return this;
+    }
+
+    async accessNokCash() {
+      await this.nokCashButtonLocator.click()
+
+      return this;
     }
   
 
