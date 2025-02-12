@@ -1,0 +1,26 @@
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="47.046268">
+<testsuite name="Test\test-demo.spec.ts" timestamp="2025-02-12T11:28:28.818Z" hostname="Chrome" tests="1" failures="0" skipped="0" time="20.691" errors="0">
+<testcase name="Payment" classname="Test\test-demo.spec.ts" time="20.691">
+<system-out>
+<![CDATA[tests
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Test\test-demo.spec.ts" timestamp="2025-02-12T11:28:28.818Z" hostname="Mobile" tests="1" failures="0" skipped="0" time="3.409" errors="0">
+<testcase name="Payment" classname="Test\test-demo.spec.ts" time="3.409">
+<system-out>
+<![CDATA[tests
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Test\test-demo.spec.ts" timestamp="2025-02-12T11:28:28.818Z" hostname="Tablet" tests="1" failures="0" skipped="0" time="19.102" errors="0">
+<testcase name="Payment" classname="Test\test-demo.spec.ts" time="19.102">
+<system-out>
+<![CDATA[tests
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
